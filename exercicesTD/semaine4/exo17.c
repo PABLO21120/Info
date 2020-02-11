@@ -16,6 +16,7 @@ void init_alea(){
 
 }
 int main(){
+    srand(time(NULL););
     int N=4;
     int tab[N];
 
