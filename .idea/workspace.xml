@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cb29fd-6180-4aaf-8f3e-aa638adc88e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine4/exo17.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine4/exo17.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine3/exo18.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine3/exo18.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine3/exo19.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine3/exo19.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581412368755">
+    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581414374048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581412368755" />
+    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581414374048" />
   </component>
 </project>

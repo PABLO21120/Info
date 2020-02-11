@@ -11,7 +11,7 @@ void echange(int *a,int *b){
     *b=res;
 
     }
-
+//question2
 int tri(int *a,int *b){
     if(*a>*b){
         echange(a,b);
