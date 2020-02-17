@@ -30,48 +30,40 @@ void affichage_objet(int obj){
     }
   }
 }
-//question1
+//question1//
 int choix_ordinateur() {
-/* hypoth�se : PIERRE < FEUILLE < CISEAUX
-  toutes les valeurs comprises entre PIERRE et CISEAUX sont "valables"
-  renvoie une valeur choisie al�atoirement entre PIERRE et CISEAUX */
+
     int res= rand()%(4-1)+1;
     return res;
 }
-//question2
-int choix_joueur() {
-/* hypoth�ses : PIERRE < FEUILLE < CISEAUX
-  renvoie la valeur choisie par le joueur
-  v�rifie qu'elle est comprise entre PIERRE et CISEAUX
-  redemande la saisie si ce n'est pas le cas
+//question2//
+#define CHANCE 3
 
-  Si apr�s NBESSAIS le joueur n'a pas saisi de valeur valable,
-  cette derni�re est tir�e au sort */
-  int saisie;
-  int i=0;
-  int chance=NBESSAIS;
-    scanf("%d",&saisie);
-
-    if((saisie!=1)||(saisie!=2)||(saisie!=3)){
-        chance=chance-1;
-        printf("Veuillez rentrer une valeur entre 1 et 3, il vous reste %d chances ! \n",chance);
+int choix_joueur(){
+    int saisie;
+    int chance=CHANCE;
+    int i=chance;
+    while(i>0){
+        printf("veuillez saisir un nombre entre 1 et 3\n");
         scanf("%d",&saisie);
-        i=i+1;
+        printf("%d\n",saisie);
+        if((saisie!=1)&&(saisie!=2)&&(saisie!=3)){
+            i=i-1;
+            printf("vous avez choisis un chiffre different,il vous reste %d chances\n",i);
+
+        }else{
+            return saisie;
+
+        }
     }
-    else{
-        return saisie;
-    }
+    return -1;
 
 
-  return printf("Vous avez perdu car vous avez rentrer a plus de trois reprises une mauvaise valeur \n");
 
 }
 
-void score(int choixj,int choixo ,int scj,int sco){
-  /* hypoth�ses : le coup du joueur et celui de l'ordinateur sont valables
-                  (�gaux � PIERRE, FEUILLE ou CISEAUX)
-   augmente de 1 le score du joueur si le coup du joueur est gagnant
-   augmente de 1 le score de l'ordinateur si le coup de l'ordinateur est gagnant */
+void score(int choixj,int choixo ,int *scj,int *sco){
+
     if(choixj>choixo){
         scj+=1;
         sco=sco;
@@ -93,13 +85,7 @@ void jeu() {
 
 int main() {
     srand(time(NULL));
-    int choixo1=choix_ordinateur();
-    int choixj=choix_joueur();
-    int scj1;
-    int sco1;
-    printf("%d",choix_ordinateur());
-    printf("%d",choix_joueur());
-    score(choixj,choixo1,scj1,sco1);
+    choix_joueur();
 
 
   return 0;
