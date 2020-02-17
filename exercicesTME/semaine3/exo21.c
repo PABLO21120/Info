@@ -30,14 +30,11 @@ void affichage_objet(int obj){
     }
   }
 }
-//question1//
-int choix_ordinateur() {
-
-    int res= rand()%(4-1)+1;
-    return res;
-}
-//question2//
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #define CHANCE 3
+#define POINTSGAGNANTS 3
 
 int choix_joueur(){
     int saisie;
@@ -61,32 +58,56 @@ int choix_joueur(){
 
 
 }
+int choix_ordinateur() {
 
-void score(int choixj,int choixo ,int *scj,int *sco){
+    int res= rand()%(4-1)+1;
+    return res;
+}
+void score(int choixo,int choixj,int *scorej,int *scoreo){
+    choixo=choix_ordinateur();
+    choixj=choix_joueur();
+    printf("l'ordinateur a dit %d\n",choixo);
+    printf("le joueur a dit %d\n",choixj);
 
-    if(choixj>choixo){
-        scj+=1;
-        sco=sco;
+    if (choixo>choixj){
+        *scoreo+=1;
+    }else if(choixo<choixj){
+        *scorej+=1;
+
     }
-    else if(choixj<choixo){
-        scj=scj;
-        sco=sco+1;
-    }
-     printf("Le score est de %d - %d\n",scj,sco);
+    printf("Le score est de %d/5 pour joueur - %d/5 pour ordinateur \n",*scorej,*scoreo);
 
 
 }
-
-
 void jeu() {
-  /* boucle de jeu, la partie s'arr�te d�s qu'un des deux joueurs
-   atteint POINTSGAGNANTS points */
+    int scoj1;
+    int scoo1;
+    int choix1;
+    int choix2;
+
+   while ((scoj1 != POINTSGAGNANTS)||(scoo1!=POINTSGAGNANTS)){
+    score(choix1,choix2,&scoj1,&scoo1);
+
+
+
+   if(scoj1 == POINTSGAGNANTS){
+    printf("le gagnant est joueur\n");
+   }
+   else if(scoo1 == POINTSGAGNANTS){
+        printf("le gagnant est ordinateur \n");
+
+   }
+
+}
 }
 
-int main() {
+int main(){
     srand(time(NULL));
-    choix_joueur();
+    int scoj;
+    int scoo;
+    int choix1;
+    int choix2;
 
+    jeu();
 
-  return 0;
 }

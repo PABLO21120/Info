@@ -36,46 +36,47 @@ void score(int choixo,int choixj,int *scorej,int *scoreo){
     choixj=choix_joueur();
     printf("l'ordinateur a dit %d\n",choixo);
     printf("le joueur a dit %d\n",choixj);
-    *scoreo=0;
-    *scorej=0;
+
     if (choixo>choixj){
         *scoreo+=1;
     }else if(choixo<choixj){
         *scorej+=1;
 
     }
-    printf("Le score est de %d/5 pour joueur - %d/5 pour ordinateur \n",*scorej,*scoreo);
+    printf("Le score est de %d/%d pour joueur - %d/%d pour ordinateur \n",*scorej,POINTSGAGNANTS,*scoreo,POINTSGAGNANTS);
 
 
 }
-void jeu() {
-    int scoj1;
-    int scoo1;
-    int choix1;
-    int choix2;
-
-   while ((scoj1 != POINTSGAGNANTS)||(scoo1!=POINTSGAGNANTS)){
-    score(choix1,choix2,&scoj1,&scoo1);
-
-
-   }
-   if(scoj1 == POINTSGAGNANTS){
+void jeu(){
+    int i=0;
+    int choix;
+    int choixordi;
+    int score1=0;
+    int score2=0;
+    while((score1!=POINTSGAGNANTS)||(score2!=POINTSGAGNANTS)){
+        score(choix,choixordi,&score1,&score2);
+        if(score1 == POINTSGAGNANTS){
     printf("le gagnant est joueur\n");
-   }
-   else if(scoo1 == POINTSGAGNANTS){
+    break;
+        }
+        else if(score2 == POINTSGAGNANTS){
         printf("le gagnant est ordinateur \n");
+        break;
 
    }
+    }
+
+
 
 }
+
 
 int main(){
     srand(time(NULL));
-    int scoj;
-    int scoo;
+    int scoj=0;
+    int scoo=0;
     int choix1;
     int choix2;
-
+    int i;
     jeu();
-
 }
