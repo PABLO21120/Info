@@ -1,4 +1,6 @@
 //question1
+
+//question1
 #include <stdio.h>
 int jours(float pcs,float pop,float pourcentage){
     float prcres;
