@@ -2,17 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 #define NBQUILLES 10
+#define NBTOURS 10
+#define NBLANCERS 2
 int lancer(int a){
+  int temp;
   int res;
-printf("veuillez rentrer une valeur supérieure ou égale à 0\n");
-scanf("%d",&res);
+printf("veuillez rentrer le nombre de quilles encore debout\n");
+scanf("%d",&temp);
 if((res>=0)&&(res<=a)){
-    return res;
+    res=NBQUILLES-temp;
+    return res;;
 }
 else{
 while((res<0)||(res>a)){
 printf("veuillez rentrer une valeur supérieure ou égale à 0\n");
-scanf("%d",&res);
+scanf("%d",&temp);
 }
 }
 
@@ -25,11 +29,12 @@ int lancer_aleatoire() {
   return 0;
 }
 //question2
-void score(int *strike,int *spare) {
-    printf("veuillez rentrer le nombre de quilles que vous avez fait tombé au premier lancer\n");
+void score(int *score,int *strike,int *spare) {
+    printf("veuillez rentrer le nombre de quilles que vous avez fait tombé au premier lancer sur %d\n",NBQUILLES);
     int score1=lancer(NBQUILLES);
     printf("%d",score1);
-    if(score1==NBQUILLES){
+    if(){
+        *score+=10;
         *strike=1;
         *spare=0;
         printf("vous avez un strike %d !\n",*strike);
@@ -53,16 +58,14 @@ void score(int *strike,int *spare) {
 
 }
 //question3
-int tour (){
+void tour (){
   int strike;
-  int spare()
+  int spare;
   int i;
+  for(i=0;i<NBTOURS)
     score(&strike,&spare);
   }
 
-
-
-}
 int main(){
   int strike;
   int spare;

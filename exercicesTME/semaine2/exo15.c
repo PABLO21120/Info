@@ -12,7 +12,7 @@ void triangles(int h,int l){
 	CINI_open_window(300,300,"gle");
 		CINI_fill_window("white");
 	while(epsilon>0){
-	
+
 
 /*A-->B*/	CINI_draw_line(xA,yA,xB,yB, "red");
 /*C-->B*/	CINI_draw_line(xC,yC,xB,yB, "green");
@@ -28,7 +28,7 @@ void triangles(int h,int l){
 		CINI_loop_until_keyup();
 		epsilon=(xB-xA)*(xB-xA);
 	}
-	
+
 }
 //question2
 void angles(int h,int l){
@@ -38,17 +38,17 @@ void angles(int h,int l){
 	int yB=9*(l-1)/10;
 	int xC=9*((l/2)-1)/10;
 	int yC=((h-1)/10);
-	
+
 	CINI_fill_window("white");
 /*A*/	CINI_draw_line(0,h-1,h-1,l-1, "red");
 /*B*/	CINI_draw_line((l/2)-1,0,h-1,l-1, "green");
 /*C*/	CINI_draw_line(0,h-1,(l/2)-1,0, "blue");
-	
+
 
 /*A'-->B'*/	CINI_draw_line(xA,yA,xB,yB,"red");
 /*A'-->C'*/	CINI_draw_line(xA,yA,xC,yC,"blue");
 /*B'-->C'*/	CINI_draw_line(xB,yB,xC,yC, "green");
-	
+
 }
 //question3
 
