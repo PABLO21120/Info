@@ -3,13 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d3cb29fd-6180-4aaf-8f3e-aa638adc88e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine3/exo21" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine3/exo21" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine3/exo21.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine3/exo21.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine8/exo28.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine8/exo28.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo32.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo32.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LU1IN02" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +55,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586699422249">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586699422249" />
     <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581514472067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
