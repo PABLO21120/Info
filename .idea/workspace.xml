@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d3cb29fd-6180-4aaf-8f3e-aa638adc88e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine8/exo28.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine8/exo28.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo32.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo32.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine7/exo26" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine7/exo26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine7/exo26.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine7/exo26.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine7/exo27" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine7/exo27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTD/semaine7/exo27.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTD/semaine7/exo27.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo33.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo33.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo34.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo34.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +59,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586699422249">
+    <state x="465" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588248011553">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586699422249" />
+    <state x="465" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588248011553" />
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1588247821808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588247821808" />
     <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581514472067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -31,7 +31,7 @@ void augmentationPrix(struct article *stock,int augmentation,int reference){
   int i;
   for(i=0;i<TAILLE_STOCK;i++){
     if(stock[i].reference==reference){
-      stock[i].prix+=augmentation;
+      stock[i].prix+=((augmentation/100)*stock[i].prix);
     }
   }
 
@@ -41,7 +41,7 @@ void augmentationPrix(struct article *stock,int augmentation,int reference){
 void augmentationGenerale(struct article *stock,int augmentation){
   int i;
   for(i=0;i<TAILLE_STOCK;i++){
-      stock[i].prix+=augmentation;
+      stock[i].prix+=((augmentation/100)*stock[i].prix);
   }
 
 }
@@ -65,6 +65,7 @@ int main(){
   int augmentation=20;
   int reference=1899;
   initialise(stock);
+  affichage(stock);
   augmentationGenerale(stock,augmentation);
   affichage(stock);
   printf("%d",validationReferences(stock));
