@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cb29fd-6180-4aaf-8f3e-aa638adc88e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo33" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo33" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo33.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo33.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo34" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo34" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicesTME/semaine6/exo34.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercicesTME/semaine6/exo34.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xc90XBUydHB2zqACwHndVfiTy9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +28,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercicesTME/semaine8" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -61,13 +64,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588248011553" />
-    <state x="413" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1588247821808">
+    <state x="906" y="300" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1589360037705">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588247821808" />
-    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588259222082">
+    <state x="906" y="300" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1440.900@0.0.1440.900" timestamp="1589360037705" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1589210614474">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588259222082" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1589210614474" />
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1589208388577">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1589208388577" />
+    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589374869934">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="24" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589374869934" />
   </component>
 </project>
